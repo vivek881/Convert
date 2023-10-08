@@ -11,4 +11,8 @@ public class HomeController {
     public String baseHome(){
         return "OK";
     }
+    @RequestMapping("/home")
+    public String basehome2(){
+        return "ok2";
+    }
 }
